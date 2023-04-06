@@ -1,0 +1,230 @@
+* {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+
+
+.websiteheader {
+    width: 99%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 1px;
+    margin: 9px;
+}
+
+footer {
+  width: 350px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 1px;
+  margin: 9px;
+}
+
+.btnfooter {
+  font-family: Georgia;
+  color: #000000;
+  font-size: 14px;
+  padding: 5px 10px 10px 10px;
+  text-decoration: none;
+}
+
+
+.websiteheader p{
+
+    margin-left: 130px;
+    margin-top: -45px;
+    
+
+}
+.customarea {
+    display: flex;
+}
+
+video{
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    margin-left: 180px;
+}
+
+.imgbanner {
+    align-items: center;
+    display: flex;
+    width: 1910px;
+    height: 618px;
+    justify-content: center;
+
+}
+
+.btn11 {
+    background: #ffffff;
+    background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius:3px;
+    font-family: Georgia;
+    color: #000000;
+    font-size: 14px;
+    padding: 5px 10px 10px 10px;
+    text-decoration: none;
+  }
+  
+  .btn11:hover {
+    background: #7a858c;
+    text-decoration: none;
+  }
+
+.btncenter {
+    display: block;
+    margin-left: 670px;
+    
+}
+
+.btn-1 {
+  background: #946227;
+  color: #fff;
+}
+.icon-cart:before {
+    content: "\f07a";
+  }
+
+
+  .btn-sep {
+    padding: 25px 60px 25px 120px;
+  }
+  
+  .btn-sep:before {
+    background: rgba(0,0,0,0.15);
+
+  }
+  
+
+.btn-1:hover {
+  background: #746227;
+}
+
+.btn-1:active {
+  background: #646227;
+  top: 2px;
+}
+
+.btn9 {
+    border: none;
+    font-family: 'Lato';
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  .btn9:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  
+  .btn9:before {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .btn9:hover {
+    background-color: #949ea5;
+    border-radius: 20px;
+  }
+
+  /* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+  
+  /* The popup chat - hidden by default */
+  .chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width textarea */
+  .form-container textarea {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+  }
+  
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/send button */
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
