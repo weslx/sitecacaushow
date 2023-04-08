@@ -10,6 +10,8 @@
     border-radius: 5px;
     padding: 1px;
     margin: 9px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(100,58,36,1) 250%);
 }
 
 footer {
@@ -31,8 +33,9 @@ footer {
 
 .websiteheader p{
 
-    margin-left: 130px;
-    margin-top: -45px;
+    margin-left: 140px;
+    margin-top: -35px;
+    
     
 
 }
@@ -48,13 +51,23 @@ video{
 }
 
 .imgbanner {
-    align-items: center;
+    align-items: flex-end;
     display: flex;
     width: 1910px;
     height: 618px;
     justify-content: center;
 
 }
+
+@media screen and (max-width: 1366px) {
+  .imgbanner {
+    height: 500px;
+    width: 100%;
+  }
+  
+}
+  
+
 
 .btn11 {
     background: #ffffff;
